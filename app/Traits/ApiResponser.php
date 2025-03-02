@@ -11,6 +11,7 @@ use DB;
 class UserController extends Controller
 {
     use ApiResponser;
+    
     private $request;
 
     public function __construct(Request $request){
